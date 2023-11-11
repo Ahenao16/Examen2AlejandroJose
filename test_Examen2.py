@@ -25,7 +25,7 @@ def test_verifica_lista_canciones():
 
     assert objeto.VerificaListaCanciones(["Canción 1", "Canción 2", "Canción 3"]) == True
     assert objeto.VerificaListaCanciones(["Canción 1", None, "Canción 3"]) == False
-# Si deseas ejecutar estas pruebas, guarda este archivo con un nombre como "test_tu_archivo.py" y ejecuta "pytest" en tu terminal.
+
 def test_ObtieneValencia():
     assert obj1.ObtieneValencia(obj1.Valencia) == 3
 def test_DivisibleTempo():
