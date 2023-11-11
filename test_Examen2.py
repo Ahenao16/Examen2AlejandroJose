@@ -2,13 +2,9 @@ from Examen2 import *
 
 obj1 = MiClase(111,224,2,["canción 1", "canción 2", "canción 3","canción 4" ,"canción 5"],[0.7,0.9, 0.2, 0.8, 1])
 
-
 import pytest
 
-# Importa la clase que estás probando
-from Examen2 import MiClase
 
-# Pruebas para la clase MiClase
 def test_obtiene_valencia():
 
     assert objeto.ObtieneValencia(1234567) == 4
